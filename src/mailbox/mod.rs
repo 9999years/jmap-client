@@ -133,6 +133,8 @@ pub enum Role {
     Sent,
     #[serde(rename = "trash", alias = "TRASH")]
     Trash,
+    #[serde(rename = "snoozed", alias = "SNOOZED")]
+    Snoozed,
     None,
 }
 
